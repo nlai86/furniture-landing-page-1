@@ -26,7 +26,7 @@ export function Navbar() {
         {/* Logo */}
         <a
           href="#"
-          className={`font-sans text-xs tracking-[0.25em] uppercase font-medium transition-colors duration-300 ${
+          className={`font-sans text-sm md:text-base tracking-[0.25em] uppercase font-medium transition-colors duration-300 ${
             scrolled ? "text-foreground" : "text-white"
           }`}
         >

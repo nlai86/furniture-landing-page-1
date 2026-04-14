@@ -34,11 +34,13 @@ export function Hero() {
       {/* Subtle overlay */}
       <div className="absolute inset-0 bg-foreground/30" />
 
+      {/* Tagline pinned near top for readability */}
+      <p className="absolute top-24 left-1/2 -translate-x-1/2 z-10 font-sans text-xs tracking-[0.3em] uppercase text-white/80 text-center px-6">
+        Est. 2019 — Milan / New York
+      </p>
+
       {/* Hero content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
-        <p className="font-sans text-xs tracking-[0.3em] uppercase text-white/70 mb-6">
-          Est. 2019 — Milan / New York
-        </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-white leading-[1.05] tracking-tight text-balance mb-6">
           Where Art<br />Meets Living
         </h1>
